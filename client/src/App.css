@@ -1,0 +1,29 @@
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    /* Change this to your desired arrow color */
+}
+
+.swiper-pagination-bullet {
+    background: white;
+    /* Change this to your desired dot color */
+}
+
+.swiper-pagination-bullet-active {
+    background: white;
+    /* Change this to your desired active dot color */
+}
+
+/* Custom styles for Swiper pagination dots */
+.mySwiper .swiper-pagination-bullet {
+    background-color: #cccccc;
+    /* Inactive dot color */
+    opacity: 0.7;
+    /* Adjust visibility */
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    background-color: #ff6600;
+    /* Active dot color */
+    opacity: 1;
+}
